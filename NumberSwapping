@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+int a;
+int b;
+printf("\n Enter number a: %d", a);
+scanf("%d", &a);
+printf("\n Enter number b: %d", b);
+scanf("%d", &b);
+printf("\n Number a before swapping %d", a);
+printf("\n Number b before swapping %d", b);
+a = a + b;
+b = a - b;
+a = a - b;
+printf("\n Number a after swapping %d", a);
+printf("\n Number b after swapping %d", b);
+}
